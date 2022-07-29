@@ -2,10 +2,18 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { BannerComponent } from './banner/banner.component';
+import { HomecontentComponent } from './home/homecontent/homecontent.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    RegistrationComponent,
+    BannerComponent,
+    HomecontentComponent
   ],
   imports: [
     BrowserModule
