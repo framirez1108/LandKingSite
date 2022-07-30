@@ -13,24 +13,25 @@
 }
 
 .reg {
+  margin-top: 10vh;
   color: white;
   text-align: center;
-  font-size: 250%;
   border: solid;
-  width: 50vw;
+  border-width:1px;
   margin-left: 25vw;
-  padding:0;
+  margin-right: 25vw;
 }
 
-.reg-info{
-    border:solid;
-    text-align:center;
+.reg-info {
+  font-size: 3vw;
+  border: solid;
+  text-align: center;
 }
 input {
   color: black;
-  text-align: center;
-  font-size: 50%;
+  font-size: 3vw;
   border: solid;
-  width: 15vw;
-  
+  position: center;
+  background-blend-mode: soft-light;
+  margin-bottom: 2vh;
 }
