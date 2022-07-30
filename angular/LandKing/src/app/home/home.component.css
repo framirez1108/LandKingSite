@@ -4,40 +4,53 @@
 
 
 .banner {
-  font-size:14px;
+  font-size:200%;
   color: white;
   background-color: grey;
   width:100%;
   position:fixed;
   top:0;
-  left:0
+  left:0;
 }
 
 .desc {
-  font-size: 40px;
+  font-size: 200%;
   text-align: center;
   float: left;
   border: solid;
-  position:relative;
+  position: relative;
   width: 70%;
-  left:0;
-  top:0;
-  bottom:0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 20px;
 }
 
 
 .reg {
-  font-size: 40px;
+  font-size: 200%;
+  text-align:center;
   float: right;
   width: 29%;
   background-color: lightblue;
   border: solid;
+  border-radius:20px;
 }
 
 
 .content{
     left:0;
-    top:0;
+    top:120px;
+    width:100wh;
     position: relative;
+}
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  border: solid;
+  font-size: 100%;
 }
