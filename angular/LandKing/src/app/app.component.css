@@ -8,9 +8,12 @@ test {
 .banner {
   font-size: 2vh;
   color: white;
-  background-color: darkgrey;
+  background-color: #316572;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
+  opacity:.9;
 }
+
+
