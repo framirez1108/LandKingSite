@@ -7,7 +7,7 @@ html, body {
 .banner {
   font-size: 2vh;
   color: white;
-  background-color:lightslategray;
+  background-color:darkgrey;
   width: 100%;
   position: fixed;
   top: 0;
@@ -15,7 +15,7 @@ html, body {
 }
 
 .desc {
-  color:lightgray;
+  color:white;
   font-size: 200%;
   text-align: center;
   border: solid;
@@ -50,7 +50,7 @@ html, body {
   width: 100vw;
   position: absolute;
   height: 94vh;
-  background-image: url(../../assets/images/bg-1.jpg);
+  background-image: url(../../assets/images/bg-2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100vw, 100vh
