@@ -13,24 +13,31 @@
   left:0
 }
 
+.desc {
+  font-size: 40px;
+  text-align: center;
+  float: left;
+  border: solid;
+  position:relative;
+  width: 70%;
+  left:0;
+  top:0;
+  bottom:0;
+}
+
 
 .reg {
   font-size: 40px;
-  float: left;
-  padding-left:15%;
-  padding-right:15%;
-  padding-bottom:42%;
+  float: right;
+  width: 29%;
+  background-color: lightblue;
   border: solid;
 }
 
-.content{
-  font-size: 40px;
-  text-align:center;
-  background-color:lightblue;
-  float:right;
-  border:solid;
-  padding-left:5%;
-  padding-right:5%;
-  padding-bottom:50%
-}
 
+.content{
+    left:0;
+    top:0;
+    position: relative;
+
+}

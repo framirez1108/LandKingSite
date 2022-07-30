@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { BannerComponent } from './banner/banner.component';
 import { HomecontentComponent } from './home/homecontent/homecontent.component';
+import { InfobannerComponent } from './infobanner/infobanner.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { HomecontentComponent } from './home/homecontent/homecontent.component';
     HomeComponent,
     RegistrationComponent,
     BannerComponent,
-    HomecontentComponent
+    HomecontentComponent,
+    InfobannerComponent
   ],
   imports: [
     BrowserModule
