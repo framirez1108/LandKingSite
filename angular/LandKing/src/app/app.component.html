@@ -5,13 +5,17 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8" />
-
+  <base href="/" />
 </head>
 <body>
-
-  <div class="test">
-    <app-home> </app-home>
+  <div class="banner">
+    <app-banner></app-banner>
   </div>
-  <app-home></app-home>
+
+  <div class="routCont">
+    <router-outlet> </router-outlet>
+  </div>
 </body>
 </html>
+
+

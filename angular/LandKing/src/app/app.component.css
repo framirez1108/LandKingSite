@@ -4,3 +4,13 @@ test {
   background-repeat: no-repeat;
   background-size: 100vw, 100vh
 }
+
+.banner {
+  font-size: 2vh;
+  color: white;
+  background-color: darkgrey;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
