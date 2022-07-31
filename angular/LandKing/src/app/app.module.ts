@@ -5,7 +5,8 @@ import { AppComponent } from './app.component';
 import { BannerComponent } from './banner/banner.component';
 import { HomecontentComponent } from './home/homecontent/homecontent.component';
 import { InfobannerComponent } from './infobanner/infobanner.component';
-import { AppRoutingModule, routingComponents } from './app-routing.module'; // Added here
+import { AppRoutingModule, routingComponents } from './app-routing.module';
+import { SigninComponent } from './signin/signin.component'; // Added here
 
 
 
@@ -15,7 +16,8 @@ import { AppRoutingModule, routingComponents } from './app-routing.module'; // A
     routingComponents,
     BannerComponent,
     HomecontentComponent,
-    InfobannerComponent
+    InfobannerComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,

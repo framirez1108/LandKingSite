@@ -1,7 +1,8 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';     // Add your component here
 import { RegistrationComponent } from './registration/registration.component';  // Add your component here
+import { SigninComponent } from './signin/signin.component'
 
 //This is my case 
 const routes: Routes = [
@@ -12,6 +13,10 @@ const routes: Routes = [
   {
     path: 'reg',
     component: RegistrationComponent
+  },
+  {
+    path: 'signin',
+    component: SigninComponent
   }
 ];
 

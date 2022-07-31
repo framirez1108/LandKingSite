@@ -3,17 +3,14 @@
   bottom: 0;
   top: 6vh;
   width: 99.7vw;
-  height: 93.4vh;
   position: absolute;
+  height: 93.4vh;
   border: solid;
+  color:black;
   background-image: url(../../assets/images/bg-2.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100vw, 100vh;
-}
-
-.bg {
-
+  background-size: 100vw, 100vh
 }
 
 .reg {
@@ -21,8 +18,8 @@
   color: white;
   text-align: center;
   border: solid;
-  border-radius:20px;
-  border-width:2px;
+  border-radius: 20px;
+  border-width: 2px;
   margin-left: 25vw;
   margin-right: 25vw;
 }
@@ -30,8 +27,8 @@
 .reg-info {
   font-size: 3vw;
   text-align: center;
-
 }
+
 input {
   color: black;
   font-size: 3vw;
