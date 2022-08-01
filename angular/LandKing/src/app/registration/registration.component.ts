@@ -56,7 +56,7 @@ export class RegistrationComponent implements OnInit {
     if (this.username != "" || this.email != "") {
       this.UserService.addUser(this.user).subscribe(
         (response: User) => {
-          console.log("Test");
+          alert("User created");
         },
         (error: HttpErrorResponse) => {
           alert(error.message);
