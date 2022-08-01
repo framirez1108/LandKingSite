@@ -6,8 +6,8 @@ import { BannerComponent } from './banner/banner.component';
 import { HomecontentComponent } from './home/homecontent/homecontent.component';
 import { InfobannerComponent } from './infobanner/infobanner.component';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
-import { SigninComponent } from './signin/signin.component'; // Added here
-
+import { SigninComponent } from './signin/signin.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -17,11 +17,12 @@ import { SigninComponent } from './signin/signin.component'; // Added here
     BannerComponent,
     HomecontentComponent,
     InfobannerComponent,
-    SigninComponent
+    SigninComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
